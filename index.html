@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div>
+        <h2>Registration Form</h2>
+        <form action="/action.php">
+            <fieldset>
+                <legend><b> <big>Personal Information</big> </b>
+                    </legend>
+            <b> Name: </b>
+            <input type="text" placeholder="Enter Your Name" required><br><br>
+            <b> Father's Name: </b>
+            <input type="text" placeholder="Enter Your Father Name" required><br><br>
+            <b> Phone No: </b>
+            <input type="number" placeholder="03001234567" required><br><br>
+            <b> Email: </b>
+            <input type="email" placeholder="xyz@gmail.com"><br><br>
+            <b> Gender: </b>
+            <label for="101">
+                <input type="radio" value="Male" name="gender" id="101">Male
+            </label>
+            <label for="102">
+                <input type="radio" value="Female" name="gender" id="102">Female
+            </label>
+            <label for="103">
+                <input type="radio" value="other" name="gender" id="103">Other <br><br>
+            </label>
+           <b> Date Of Birth: </b>
+            <input type="date"> 
+        </fieldset><br><br>
+        <fieldset>
+            <legend> <b> <big> Address</big> </b>®
+               
+            </legend>
+       
+            <b> Address: </b>
+            <input type="address" placeholder="House No:- Street:- City:-"><br><br>
+            <b>Blood Group: </b>
+            <select name="Blood Group" id="104" size="1">
+                <option value="O positive" > O<sup>+</sup> </option>
+                <option value="O negative"> O<sup>-</sup></option>
+                <option value="A positive"> A<sup>+</sup></option>
+                <option value="A negative"> A<sup>-</sup></option>
+                <option value="B positive"> B<sup>+</sup></option>
+                <option value="B negative"> B<sup>-</sup></option>
+                <option value="AB positive"> AB<sup>+</sup></option>
+                <option value="AB negative"> AB<sup>-</sup></option>
+            </select><br><br>
+            <b>Department: </b>
+            <label for="105">
+            <input type="radio" value="BCS" name="dept" id="105">BCS
+        </label>
+        <label for="106">
+            <input type="radio" value="BBA" name="dept" id="106">BBA
+        </label>
+        <label for="107">
+            <input type="radio" value="EEE" name="dept" id="107">EEE
+        </label>
+        <label for="108">
+            <input type="radio" value="BDS" name="dept" id="108">BDS
+        </label><br><br>
+        <b>Courses: </b>
+        <label for="109">
+        <input type="checkbox" value="TOA" name="sub" id="109">T0A
+    </label>
+    <label for="110">
+        <input type="checkbox" value="DB" name="sub" id="110">DB
+    </label>
+    <label for="111">
+        <input type="checkbox" value="DSA" name="sub" id="111">DSA
+    </label>
+    <label for="112">
+        <input type="checkbox" value="SPM" name="sub" id="112">SPM
+    </label>
+    <label for="113">
+        <input type="checkbox" value="DCCN" name="sub" id="113">DCCN
+    </label>
+    <label for="114">
+        <input type="checkbox" value="OS" name="sub" id="114">OS <br><br>
+    </label>
+   <b> Photo: </b>
+   <input type="file"required> <br> <br>
+
+            <input type="submit" value="submit">
+        </fieldset>
+       
+        </form>
+    </div>
+</body>
+
+</html>
